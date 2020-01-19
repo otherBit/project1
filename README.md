@@ -26,8 +26,3 @@ In templates folder we have:
     search.html --> to handle searches, isbn, title, author
     results.html --> to display the search that was made
     book.html --> to display about the book from the search results, "http://covers.openlibrary.org/a/          $key/               $value-$size.jpg" used this api to get cover of the books for their             isbn
-
-
-You have to intall the following modules: look into the 
-    Flask-Login --> to handle the user sessions after authentication
-    Flask-SQLAlchemy --> to represent the user model and interface with our database
